@@ -1,0 +1,45 @@
+.game {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 5%;
+}
+.game h1 {
+  font-size: 4rem;
+}
+.game h2 {
+  font-size: 3rem;
+}
+input {
+  font-size: 1.7rem;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  height: 70px;
+  width: 25%;
+  border-radius: 0.5rem;
+  border: 3px solid black;
+  cursor: pointer;
+}
+#result {
+  padding-top: 2rem;
+}
+#under {
+  background: rgba(109, 238, 255, 0.404);
+}
+#above {
+  background: rgba(109, 238, 255, 0.404);
+}
+#under:hover,
+#above:hover {
+  background: rgba(0, 0, 0, 0.322);
+  color: white;
+}
+#again {
+  background: rgba(109, 238, 255, 0.404);
+  /* margin-top: 3rem; */
+  position: fixed;
+  bottom: 20%;
+  right: 35%;
+}
+#again:hover {
+  background: goldenrod;
+}
